@@ -29,11 +29,10 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".collapse navbar-collapse" data-offset="50">
 
   <div class="KW_progressContainer">
     <div class="KW_progressBar">
-
     </div>
   </div>
   <div class="page">
@@ -61,39 +60,39 @@
 
     <div id="colorlib-page">
       <header>
-        <nav class="navbar fixed-top navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Fixed top</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                </li> -->
+
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </nav>
@@ -128,7 +127,7 @@
       </section>
       <!-- END slider -->
 
-      <section class="ftco-section about-section">
+      <section class="ftco-section about-section" id="about">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
             <div class="col-md-4 author-img" style="background-image: url(images/me.jpg);"
@@ -159,7 +158,7 @@
         </div>
       </section>
 
-      <section class="ftco-section">
+      <section class="ftco-section" id="services">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
@@ -201,7 +200,7 @@
         </div>
       </section>
 
-      <section class="ftco-section">
+      <section class="ftco-section" id="portfolio">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
@@ -210,8 +209,6 @@
             </div>
           </div>
           <div class="row no-gutters">
-
-
 
             <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
               <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
@@ -233,10 +230,6 @@
 
               </div>
             </div>
-
-
-
-
 
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -263,9 +256,6 @@
             </div>
           </div>
 
-
-
-
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
             <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
                      <div class="icon d-flex text-center justify-content-center align-items-center">
@@ -290,14 +280,6 @@
                   Game</a></p>
             </div>
           </div>
-
-
-
-
-
-
-
-
 
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
             <a href="https://play.google.com/store/apps/details?id=com.raidenbit.kahanibox&hl=en_US"
@@ -508,7 +490,7 @@
 
 
     <section class="ftco-section ftco-counter" id="section-counter">
-      <div class="container">
+      <div class="container" id="experience">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
             <span>Experience</span>
@@ -549,10 +531,11 @@
     </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
+      <div class="container" id="contact">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-5 text-center">
             <div class="ftco-footer-widget mb-5">
+
               <ul class="ftco-footer-social list-unstyled">
                 <li class="ftco-animate"><a href="https://www.linkedin.com/in/thepulkitguglani/"><span
                       class="icon-linkedin"></span></a></li>
@@ -566,10 +549,8 @@
                     href="https://play.google.com/store/apps/developer?id=Pulkit+Guglani&hl=en_IN"><span
                       class="icon-android2"></span></a></li>
                 <li><a href=" https://github.com/pulkit1011"><span class="icon-github"></span></a></li>
-
-
-
               </ul>
+
             </div>
             <div class="ftco-footer-widget">
               <h2 class="mb-3">Contact Me</h2>
@@ -646,6 +627,51 @@
 
       // document.getElementById("quote").innerText="fuck quote in desktop";
     }
+
+    // Get the container element
+    var navLinkContainer = document.getElementById("navbarSupportedContent");
+
+    // Get all buttons with class="btn" inside the container
+    var navLinks = navLinkContainer.getElementsByClassName("nav-link");
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < navLinks.length; i++) {
+      navLinks[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("nav-link active");
+
+        // If there's no active class
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active", "");
+        }
+
+        // Add the active class to the current/clicked button
+        this.className += " active";
+      });
+    }
+
+    $('body').scrollspy({
+      target: 'navbarSupportedContent',
+      offset: 52
+    });
+    // $(document).scroll(function () {
+    //   if (window.location.pathname + window.location.hash == '/index.html#contact') {
+       
+    //   }
+    //   console.log('window.location.pathname + window.location.hash');
+    // });
+
+    var pageProgress = function() {
+		$(window).scroll(function() {
+	    var wintop = $(window).scrollTop(), docheight = $('.page').height(), winheight = $(window).height();
+	    // console.log(wintop);
+	    var totalScroll = (wintop/(docheight-winheight))*100;
+	    console.log("total scroll" + totalScroll);
+	    // $(".KW_progressBar").css("width",totalScroll+"%");
+	  });
+
+	};
+	pageProgress();
   </script>
 
   <script src="js/jquery.min.js"></script>
@@ -662,6 +688,7 @@
   <script src="js/scrollax.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
+  <script src="util.js"></script>
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
