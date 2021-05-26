@@ -7801,7 +7801,8 @@ header {
           position: relative; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 8vw; } 
+              
         .owl-carousel.home-slider .slider-item .slider-text p {
           font-size: 20px;
           line-height: 1.5;
@@ -7811,7 +7812,8 @@ header {
             color: rgba(255, 255, 255, 0.6);
             font-weight: 400;
             text-transform: uppercase;
-            letter-spacing: 4px; }
+            letter-spacing: 4px;
+            font-size: 4.5vw; }
           .owl-carousel.home-slider .slider-item .slider-text p strong {
             font-weight: 700; }
             .owl-carousel.home-slider .slider-item .slider-text p strong a {
