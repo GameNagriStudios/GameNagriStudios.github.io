@@ -27,7 +27,6 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/logo_icon.png" type="image/gif">
 
 </head>
 
@@ -37,7 +36,7 @@
     <div class="KW_progressBar">
     </div>
   </div> -->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <div class="page">
     <nav id="colorlib-main-nav" role="navigation">
       <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
@@ -74,19 +73,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
 
-              <li class="nav-item">
+              <li class="nav-item" data-offset="50" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <a class="nav-link" aria-current="page" href="#about">About</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <a class="nav-link" href="#services">Services</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <a class="nav-link" href="#team">Team</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               <!-- <li class="nav-item">
@@ -123,7 +122,7 @@
               <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">An Indie Game Development
                 Studio
               </h1>
-              <p class="scroll">From Navi Mumbai, India</p>
+              <p>class="scroll">From Navi Mumbai, India</p>
             </div>
           </div>
         </div>
@@ -132,29 +131,23 @@
     <!-- END slider -->
 
     <section class="ftco-section about-section" id="about">
-      <h1 class="bold-text" style="text-align: center;">About</h1>
-      
       <div class="container">
         <div class="row d-flex" data-scrollax-parent="true">
-          
-          <div class="col-md-4 wrap ftco-animate">
-            <div class="p-3">
-              <div class="card" >
-                <img class="card-img-top" src="images/logoNav.png" alt="Card image cap">
-              </div> 
-            </div> 
-          </div>
-
-          <div class="col-md-8 wrap ftco-animate">
+          <div class="col-md-4 author-img" style="background-image: url(images/logoNav.png);width:155px;height:155px;"
+            data-scrollax=" properties: { translateY: '-5%'}"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-6 wrap ftco-animate">
             <div class="about-desc">
-              <div class="p-3">
+              <h1 class="bold-text">About</h1>
+              <div class="p-5">
+                <h2 class="mb-5"><br></h2>
                 <p style="text-align:justify;">We are an independent game development and servicing company based in
                   Navi Mumbai, India
                   striding to revolutionize the global game development industry with our innovation and craftsmanship.
                   We are headstrong to lead India as a market leader in the game development scene.</p>
                 <!-- <p><a href="#">Checkout my resume</a></p>-->
-                <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate" ><a href="https://www.linkedin.com/company/game-nagri-studio/"><span
+                <ul class="ftco-footer-social list-unstyled mt-4">
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/company/game-nagri-studio/"><span
                         class="icon-linkedin"></span></a></li>
                   <li><a href=" https://www.instagram.com/gamenagristudios"><span class="icon-instagram"></span></a>
                   </li>
@@ -292,7 +285,7 @@
       </div>
 
       <div class="row no-gutters">
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+
         <!-- Ball Run game 1-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
           <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
@@ -315,7 +308,7 @@
           </div>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Keep It Up game 2-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -335,7 +328,7 @@
           </video>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Room game 3-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -353,7 +346,7 @@
           </div>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Crazy Thief 4-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -374,7 +367,7 @@
           </video>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Ludo 2070 5-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -397,7 +390,7 @@
           </div>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Punya Run 6-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -419,7 +412,7 @@
           </video>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!--Snowball racer Run 7-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -440,7 +433,7 @@
           </div>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
         <!-- Choice Runner 8-->
         <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
@@ -461,7 +454,7 @@
           </video>
         </div>
 
-        <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+        <hr style="width: 100%;text-align:left;margin-left:0">
 
       </div>
       <!-- Project Paryavaran 9 -->
@@ -483,7 +476,7 @@
             Grand Finale)</p>
         </div>
       </div>
-      <hr class="partition" style="width: 100%;text-align:left;margin-left:0">
+
     </div>
     </div>
   </section>
@@ -623,7 +616,13 @@
   </footer>
 
   <!-- loader -->
-  
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg></div>
+
+  </div>
   </div>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -709,28 +708,6 @@
 
     };
     pageProgress();
-  </script>
-
-<script>
-  //Get the button
-  var mybutton = document.getElementById("myBtn");
-  
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
   </script>
 
   <script src="js/jquery.min.js"></script>
